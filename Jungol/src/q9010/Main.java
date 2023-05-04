@@ -5,8 +5,11 @@ public class Main {
 	public static void main(String[] args) {
 		int a = 10;
 		int b = 20;
-		System.out.print(b+" ");
-		System.out.print(a+"");
+		int temp = a;
+		a = b;
+		b = temp;
+		System.out.print(a+" ");
+		System.out.print(b+"");
 		
 	
 
