@@ -5,34 +5,26 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner (System.in);
+		Scanner sc = new Scanner(System.in);
 		double a = sc.nextDouble();
-		
-		switch((int)a) {
-		case(int) 4:
+		sc.close();
+		if(a>=0 && a<= 4.5) {
+		switch ((int) a) {
+		case 4:
 			System.out.println("scholarship");
-		break;
-		case(int) 3:
+			break;
+		case 3:
 			System.out.println("next semester");
-		break;
-		case(int) 2:
+			break;
+		case 2:
 			System.out.println("seasonal semester");
-		break;
+			break;
 		default:
 			System.out.println("retake");
 			break;
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		} 
-		
+		}
+
 	}
 
+}
 }

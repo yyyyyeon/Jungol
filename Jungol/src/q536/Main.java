@@ -2,8 +2,11 @@ package q536;
 
 public class Main {
 	public static void main(String[] args) {
-		for (int i = 1; i <= 15; i++) {
-				System.out.print(i + " ");
+		for (int i = 1; i < 16; i++) {
+				System.out.print(i);
+				if(i < 15) {
+				System.out.print("?");
 			} 
 		}
+	}
 }

@@ -11,6 +11,7 @@ public class Main {
 		while(true) {
 			int a = sc.nextInt();
 			if(a==0) {
+			
 				break;
 			}
 			if(a % 2 != 0) {

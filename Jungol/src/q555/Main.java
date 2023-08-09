@@ -10,6 +10,7 @@ public class Main {
 		for (int i = 0; i < ar.length; i++) {
 			ar [i] = sc.next().charAt(0);
 		}
+		sc.close();
 		for (int i = 0; i < ar.length; i++) {
 			System.out.print(ar[i]);
 		}

@@ -8,10 +8,17 @@ public class Main {
 		int inp = sc.nextInt();
 		sc.close();
 		int sum = 0;
+		
 		for(int i=1; i <= inp; i++) {
 			sum = sum + i;
 			}
 		System.out.println(sum);
 	}
 		}
-		
+
+//	while	
+//	int sum2 = 0;
+//	int i2 = 0;
+//	while (i2 <= inp) {
+//		sum2 += i2++;
+//	}

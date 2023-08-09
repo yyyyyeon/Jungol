@@ -13,6 +13,7 @@ public class Main {
 		if(i%2==0) {	
 			sum+=a[i];
 		}
+		sc.close();
 		}
 		System.out.print(sum);
 

@@ -7,8 +7,8 @@ public class Main {
 		double yard= 91.44;
 		double inch = 2.54;
 		
-		System.out.printf(" 2.1yd = %.1fcm\n",(2.1*yard));
-		System.out.printf("10.5in =  %.1fcm\n",(10.5*inch));
+		System.out.printf(" 2.1yd = %5.1fcm\n",(2.1*yard));
+		System.out.printf("10.5in = %5.1fcm\n",(10.5*inch));
 
 	}
 

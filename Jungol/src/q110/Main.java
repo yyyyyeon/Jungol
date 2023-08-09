@@ -10,7 +10,7 @@ public class Main {
 		double a = sc.nextDouble();
 		sc.close();
 		System.out.print(a + "yard = ");
-		System.out.printf("%.1f%s",(a*91.44),"cm");
+		System.out.printf("%.1f%scm",(a*91.44));
 	}
 
 }

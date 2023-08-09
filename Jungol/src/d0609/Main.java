@@ -19,7 +19,7 @@ public class Main extends WindowAdapter implements ActionListener {
       dao = new MemberDAO();
 
       f = new Frame("Login");
-      f.setSize(500, 300);
+      f.setSize(500, 700);
       f.setLayout(null);
       f.addWindowListener(this);
 

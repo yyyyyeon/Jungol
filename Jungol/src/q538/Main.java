@@ -14,6 +14,7 @@ public class Main {
 		}else if(a<0) {
 			System.out.println("negative number");
 		}else {
+			sc.close();
 			break;
 		}
 		 

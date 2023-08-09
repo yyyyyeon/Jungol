@@ -14,9 +14,6 @@ public class Main {
 		System.out.println("width = "+(a));
 		System.out.println("length = "+(b));
 		System.out.println("area = "+(a*b));
-		
-		
-
 	}
 
 }

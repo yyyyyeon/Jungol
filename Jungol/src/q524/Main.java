@@ -9,8 +9,8 @@ public class Main {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		sc.close();
-		System.out.print(a != 0 && b!=0);
-		System.out.print(a != 0 || b!=0);
+		System.out.print(a != 0 && b != 0);
+		System.out.print(a != 0 || b != 0);
 
 	}
 
